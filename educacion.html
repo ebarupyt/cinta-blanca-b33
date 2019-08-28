@@ -5,32 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eduardo Julián Barrios Ruiz</title>
+    <link rel="shortcut icon"  href="img/favicon.ico">
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
     <header>
-        <div>
-            <h1>Hoja de Vida</h1>
-            <p>Nombre: Eduardo Julián Barrios Ruiz</p>
-            <p>Fecha de Nacimiento: 01/01/01</p>
-            <p>Lugar de Nacimiento: Planeta Rica</p>
-            <hr>
-            <nav class="caja">
-                <a href="#">Inicio</a> |
-                <a href="#">Educación</a> |
-                <a href="#">Experiencia</a>   
-            </nav>
-            <hr>
-        </div>
-        
-        
-        
-        <div>
-                <img src="img/logo.png" alt="Eduardo Julian Barrios Ruiz" width="100">
-                <hr>
-        </div>
+        <h1 id="nomhv" >Hoja de Vida Eduardo Barrios</h1>
+        <hr>
+        <nav>
+            <a href="index.html">Inicio</a> |
+            <a href="educacion.html">Educación</a> |
+            <a href="multimedia.html">Multimedia</a>   
+        </nav>      
+        <hr>
     </header>
 
     <main>
@@ -71,52 +60,63 @@
             </tbody>
            
        </table>
-       
        <br>
-       
-        <form action="">
-            <fieldset>
-                <legend><h2>Agregar Estudio</h2></legend>
-                <label for="anos">Año:</label>
-                <select name="anos">
-                    <option value="2019">2019</option>
-                    <option value="2018">2018</option>
-                    <option value="2017">2017</option>
-                    <option value="2016">2016</option>
-                </select>
-                <br><br>
-                <label for="inst">Institución</label> 
-                <input type="text" name="inst" placeholder="Ingrese Institución" required>
-                 <br><br> 
-                <label for="edad">Edad</label>
-                <input type="number" name="edad" placeholder="Ingrese su edad">  
-                <br><br>
-                <input type="password" minlength="1" maxlength="8" required>
-                <br><br>
-                <input type="date" name= "date"placeholder="Ingrese Fecha de Nacimiento">
-                <br><br>
-                <input type="email" placeholder="Ingrese su Email">
-                <br><br>
-                <label for="comentarios">Comentarios:</label> 
-                <br>
-                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
-                <br>
-                <label for="genero">Escoja su Genero:</label> 
-                <br><br>
-                <input type="radio" name="genero" value="f">Femenino
-                <input type="radio" name="genero" value="m">Masculino
-                <input type="radio" name="genero" value="i">Prefiero No Decirlo
-                <br><br>
-                <label for="culmino">Escoja su Género:</label>
-                <br>
-                <input type="checkbox" name="culmino">SI
-                <input type="checkbox" name="culmino">NO
-                <br>
-                <input type="submit" name="enviar">
-                <button onclick="">Enviar</button>
-
-            </fieldset>
-           </form>
+       <form action="">
+        <fieldset>
+            <legend><h2>Agregar Estudio</h2></legend>
+            
+            <label for="anos">Año:</label>
+            <select name="anos">
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+            </select>
+            <br><br>
+            
+            <label for="inst">Institución</label> 
+            <input type="text" name="inst" placeholder="Ingrese Institución" required>
+            <br><br> 
+            
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" placeholder="Ingrese su edad">  
+            <br><br>
+            
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Ingrese su clave"  minlength="1" maxlength="8" required>
+            <br><br>
+            
+            <label for="date">Fecha de Nacimiento</label>
+            <input type="date" name= "date"placeholder="Ingrese Fecha de Nacimiento">
+            <br><br>
+            
+            <label for="email">Email</label>
+            <input type="email" name ="email" placeholder="Ingrese su Email">
+            <br><br>
+            
+            <label for="comentarios">Comentarios:</label> 
+            <br><br>
+            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+            <br> <br>
+            
+            <label for="genero">Escoja su Genero:</label> 
+            <br><br>
+            <input type="radio" name="genero" value="f">Femenino
+            <input type="radio" name="genero" value="m">Masculino
+            <input type="radio" name="genero" value="i">Prefiero No Decirlo
+            <br><br>
+            
+            <label for="culmino">Escoja su Género:</label>
+            <br> <br>
+            <input type="checkbox" name="culmino">SI
+            <input type="checkbox" name="culmino">NO
+            <br> <br> <br>
+            
+            <input type="submit" value="Enviar">
+            <button onclick="">Enviar</button>
+        </fieldset>
+           
+        </form>
            <br><br>
            <form action="">
             <fieldset>
@@ -135,20 +135,12 @@
                  <input type="checkbox" name="" id="">
                  <br><br>
                  <input type="submit" value="Enviar">
-
             </fieldset>
-
-
-           </form>
-
+        </form>
     </main>
     <hr>
     <footer>
-        <div>
-            <p>Derechos Reservados | Email <a href="mailto:ebarupyt@gmail.com">ebarupyt@gmail.com </a> | Tel: 3155618443 | Facebook <a href="https://es-la.facebook.com/">edobarrios</a></p>.
-        </div
-        
-
+        <p>Derechos Reservados | Email <a href="mailto:ebarupyt@gmail.com">ebarupyt@gmail.com </a> | Tel: 3155618443 | Facebook <a href="https://es-la.facebook.com/">edobarrios</a></p>
     </footer>
     
 </body>
