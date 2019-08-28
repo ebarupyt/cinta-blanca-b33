@@ -1,0 +1,17 @@
+body {
+  background-color: aqua;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: blue;
+  font-size: 25px;
+}
+
+#nomhv {
+  color: brown;
+}
+
+.caja {
+  border: 1px solid green;
+}
