@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eduardo Julián Barrios Ruiz</title>
+</head>
+
+<body>
+    <header>
+        <div>
+                <img src="img/logo.png" alt="Eduardo Julian Barrios Ruiz" width="100">
+                <hr>
+        </div>
+    </header>
+
+    <main>
+       <h2>Educación Recibida</h2>
+       <table border="1">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>Título</th>
+                    <th>¿Culminó?</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>1985</td>
+                    <td>IE Colegio Cooperativo</td>
+                    <td>Medelin</td>
+                    <td>Primaria</td>
+                    <td>SI</td>
+                </tr>
+                
+            <tbody>
+                    <tr>
+                            <td>2010</td>
+                            <td>San Juan</td>
+                            <td>Bogota</td>
+                            <td>Bachiller</td>
+                            <td>SI</td>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>Justo Beerio</td>
+                            <td>Cali</td>
+                            <td>Bacteriologo</td>
+                            <td>SI</td>
+                            </tr>
+            </tbody>
+           
+       </table>
+       
+       <br>
+       
+        <form action="">
+            <fieldset>
+                <legend><h2>Agregar Estudio</h2></legend>
+                <label for="anos">Año:</label>
+                <select name="anos">
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                </select>
+                <br><br>
+                <label for="inst">Institución</label> 
+                <input type="text" name="inst" placeholder="Ingrese Institución" required>
+                 <br><br> 
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" placeholder="Ingrese su edad">  
+                <br><br>
+                <input type="password" minlength="1" maxlength="8" required>
+                <br><br>
+                <input type="date" name= "date"placeholder="Ingrese Fecha de Nacimiento">
+                <br><br>
+                <input type="email" placeholder="Ingrese su Email">
+                <br><br>
+                <label for="comentarios">Comentarios:</label> 
+                <br>
+                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+                <br>
+                <label for="genero">Escoja su Genero:</label> 
+                <br><br>
+                <input type="radio" name="genero" value="f">Femenino
+                <input type="radio" name="genero" value="m">Masculino
+                <input type="radio" name="genero" value="i">Prefiero No Decirlo
+                <br><br>
+                <label for="culmino">Escoja su Género:</label>
+                <br>
+                <input type="checkbox" name="culmino">SI
+                <input type="checkbox" name="culmino">NO
+                <br>
+                <input type="submit" name="enviar">
+                <button onclick="">Enviar</button>
+
+            </fieldset>
+           </form>
+           <br><br>
+           <form action="">
+            <fieldset>
+                <legend>Contáctanos</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Ingrese su Nombre" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Ingrese su Email" required>
+                <br><br>
+                Mensaje <br><br>
+                <textarea name="" id="" cols="30" rows="10" required></textarea>
+                <br>
+                
+                 <a href="#">Acepto Términos y Condiciones</a>
+                 <input type="checkbox" name="" id="">
+                 <br><br>
+                 <input type="submit" value="Enviar">
+
+            </fieldset>
+
+
+           </form>
+
+    </main>
+    <hr>
+    <footer>
+        <div>
+            <p>Derechos Reservados | Email <a href="mailto:ebarupyt@gmail.com">ebarupyt@gmail.com </a> | Tel: 3155618443 | Facebook <a href="https://es-la.facebook.com/">edobarrios</a></p>.
+        </div
+        
+
+    </footer>
+    
+</body>
+</html>
